@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css"/>
+    <title>Document</title>
+</head>
+<body>
+
+    <!--Form Heading Starts Here-->
+
+    <h1><u>Student Regestration Form</u></h1>
+
+    <!--Form Heading Ends Here-->
+
+    <!-- Registration Form Starts Here-->
+     
+    <div class="FormDiv">
+        <table class="FormTable">
+            <tr class="formRow">
+                <td class="formLabel"><label for="firstName">First Name</label></td>
+                <td class="formInput"><input type="text" id="firstName"/></td>
+            </tr>
+            <tr class="formRow">
+                <td class="formLabel"><label for="lastName">Last Name</label></td>
+                <td class="formInput"><input type="text" id="lastName"/></td>
+            </tr>
+            <tr class="formRow">
+                <td class="formLabel"><label for="DOB">DOB</label></td>
+                <td class="formInput"><input type="month" id="DOB"/></td>
+            </tr>
+            <tr class="formRow">
+                <td class="formLabel"><label for="Email">Email</label></td>
+                <td class="formInput"><input type="email" id="Email"/></td>
+            </tr>
+            <tr class="formRow">
+                <td class="formLabel"><label for="phNum">Mobile Number</label></td>
+                <td class="formInput"><input type="number" id="phNum"/></td>
+            </tr>
+            <tr class="formRow">
+                <td class="formLabel"><label for="gender">Gender</label></td>
+                <td class="formInput">
+                    <input type="radio"/><span>Male</span>
+                    <input type="radio"/><span>Female</span>
+                </td>
+            </tr>
+            <tr class="formRow">
+                <td class="formLabel"><label for="Address">Address</label></td>
+                <td class="formInput">
+                    <textarea id="Address"></textarea>
+                </td>
+            </tr>
+            <tr class="formRow">
+                <td class="formLabel"><label for="City">City</label></td>
+                <td class="formInput"><input type="text" id="City"/></td>
+            </tr>
+            <tr class="formRow">
+                <td class="formLabel"><label for="pinCode">Pin Code</label></td>
+                <td class="formInput"><input type="text" id="pinCode"/></td>
+            </tr>
+            <tr class="formRow">
+                <td class="formLabel"><label for="Country">Country</label></td>
+                <td class="formInput"><input type="text" id="Country"/></td>
+            </tr>
+            <tr class="formRow">
+                <td class="formLabel"><label for="Hobbies">Hobbies</label></td>
+                <td class="formInput">
+                    <input type="checkbox"/><span>Dance</span>
+                    <input type="checkbox"/><span>Dance</span>
+                    <input type="checkbox"/><span>Dance</span>
+                    <input type="checkbox"/><span>Dance</span><br>
+                    <input type="checkbox"/><span>Other</span> <input type="text"/>
+                </td>
+            </tr>
+            <tr class="formRow">
+                <td class="formLabel"><label for="Qualification">Qualification</label></td>
+                <td class="formInput">
+                    <table class="qualificationTable">
+                        <tr class="qualRow headerRow">
+                            <td class="qualCell" style="text-align: center;">S.No</td>
+                            <td class="qualCell" style="text-align: center;">Examination</td>
+                            <td class="qualCell" style="text-align: center;">Board</td>
+                            <td class="qualCell" style="text-align: center;">Percentage</td>
+                            <td class="qualCell" style="text-align: center;">Year Of Passing</td>
+                        </tr>
+                        <tr class="qualRow">
+                            <td class="qualCell" style="text-align: center;">1</td>
+                            <td class="qualCell">Class X</td>
+                            <td class="qualCell"><input type="text"/></td>
+                            <td class="qualCell"><input type="number"/></td>
+                            <td class="qualCell"><input type="number"/></td>
+                        </tr>
+                        <tr class="qualRow">
+                            <td class="qualCell" style="text-align: center;">2</td>
+                            <td class="qualCell">Class XII</td>
+                            <td class="qualCell"><input type="text"/></td>
+                            <td class="qualCell"><input type="number"/></td>
+                            <td class="qualCell"><input type="number"/></td>
+                        </tr>
+                        <tr class="qualRow">
+                            <td class="qualCell" style="text-align: center;">3</td>
+                            <td class="qualCell">Graduate</td>
+                            <td class="qualCell"><input type="text"/></td>
+                            <td class="qualCell"><input type="number"/></td>
+                            <td class="qualCell"><input type="number"/></td>
+                        </tr>
+                        <tr class="qualRow">
+                            <td class="qualCell" style="text-align: center;">4</td>
+                            <td class="qualCell">Masters</td>
+                            <td class="qualCell"><input type="text"/></td>
+                            <td class="qualCell"><input type="number"/></td>
+                            <td class="qualCell"><input type="number"/></td>
+                        </tr>
+                        <tr class="qualRow note-row">
+                            <td class="qualCell" style="text-align: center;"></td>
+                            <td class="qualCell"></td>
+                            <td class="qualCell">(10 char max)</td>
+                            <td class="qualCell">(upto 2 decimals)</td>
+                            <td class="qualCell"></td>
+                        </tr>
+                    </table>
+
+                </td>
+            </tr>
+            <tr class="formRow">
+                <td class="formLabel"><label for="courseApplies">Courses Applied For</label></td>
+                <td class="formInput">
+                    <input type="radio"/><span>BCA</span>
+                    <input type="radio"/><span>B.Com</span>
+                    <input type="radio"/><span>B.Sc</span>
+                    <input type="radio"/><span>B.A</span>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Registration Form Ends Here-->
+
+    <!-- Submit and Reset Button-->
+
+    <div class="submitButton">
+            <button>Submit</button>
+            <button>Reset</button>
+    </div>
+
+    <!-- Submit button Ends here-->
+</body>
+</html>

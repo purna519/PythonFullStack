@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.FormDiv {
+    background-color: rgb(86, 86, 254);
+}
+
+.formLabel, .formInput {
+    color: white;
+}
+.formLabel {
+    width: 160px;
+    height: 35px;
+    padding-left : 10px;
+}
+
+.qualificationTable {
+    height: 30px;
+}
+.qualCell {
+    width: 50px;
+}
+
+.submitButton {
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.submitButton button {
+    background-color: rgb(247, 103, 37);
+    color: white;
+    margin: 0px 30px;
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 12px;
+}

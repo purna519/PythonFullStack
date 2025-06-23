@@ -52,3 +52,633 @@ body {
     text-decoration: none;
     color: white;
 }
+
+.carouselimage {
+    width: 100%;
+}
+
+.imageName {
+    position: relative;
+    bottom : 350px;
+    margin-left: 45%;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.courseButton {
+    position: relative;
+    bottom : 350px;
+    margin-left: 60%;
+    width: 150px;
+    height: 40px;
+    font-size: 15px;
+    background-color: rgb(255, 153, 0);
+    color: white;
+    border: 1px solid black;
+    border-radius: 12px;
+}
+
+.keyCourseDetail {
+    position: relative;
+    width: 90%;
+    bottom : 220px;
+    margin-left: 5%;
+    background-color: transparent;
+    display: flex;
+    gap: 40px;
+}
+
+.courseDetail {
+    display: flex;
+    background-color: white;
+    width: 60%;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.courseName {
+    margin-left: 30px;
+}
+.courseDetailButton {
+    margin-right: 30px;
+}
+
+.courseDetailButton button {
+    background-color: transparent;
+    color: blue;
+    border: none;
+    font-size: 15px;
+}
+
+/* Trending course , Recent additions starts here */
+
+.trendingCourses {
+    position: relative;
+    bottom: 160px;
+    margin-left: 80px;
+}
+
+.RecentAdditions {
+    position: relative;
+    bottom: 100px;
+    margin-left: 80px;
+}
+
+.trendingCoursesDisplay {
+    position: relative;
+    bottom: 140px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 40px;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.RecentCoursesDisplay {
+    position: relative;
+    bottom: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 40px;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.trendingCourseDetails {
+    width: 21%;
+    height: 100%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+.trendingCourseImage {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+
+.trendingCourseImage img{
+    width: 30%;
+}
+
+.trendingCourseDescription, .trendingCourseReviews {
+    margin: 0px 20px;
+}
+
+/* trending course , Recent additions ends here */
+
+/* Discover Top Categories starts here */
+
+.discoverTopCategories {
+    position: relative;
+    bottom: 40px;
+    margin-left: 80px;
+}
+
+.discoverTopCategoriesDisplay {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin: 0px 40px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.discoverCategoryDetails {
+    position: relative;
+    bottom: 20px;
+    width: 12%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.discoverCategoryDetails img {
+    width: 40%;
+    height: 40%;
+    padding: 10px;
+}
+
+/* Discover Top Categories ends here */
+
+/* Reviews starts here */
+
+.reviews {
+    margin-left: 80px;
+}
+
+.reviewsDisplay {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 40px;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.reviewsDetails {
+    width: 26%;
+    height: 100%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+.reviewsImage {
+    width: 100%;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    color: white;
+}
+
+.reviewsImage h1 {
+    display: flex;
+    flex-direction: column;
+    font-size: 60px;
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.reviewsDescription, .reviewsRating {
+    margin: 0px 20px;
+}
+
+.reviewsButtonDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.allReviews {
+    margin: 40px 0px;
+    font-size: 12px;
+    color: blue;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+/* reviews Ends here */
+
+/* Enroll Banner Starts here */
+
+.enrollBanner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: linear-gradient(to right, lightblue, blue);
+    width: 100%;
+    height: 140px;
+    color: white;
+}
+
+.enrollBanner button {
+    width: 200px;
+    height: 40px;
+    border: none;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(107, 107, 251);
+}
+
+/* Enroll Banner Ends here */
+
+/* Acheivers IT Edge Starts Here */
+
+.AcheiversITEdge {
+    margin-left: 80px;
+}
+
+.AcheiversITEdgeDisplay {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin: 0px 60px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.AchiversITEdgeDetails {
+    width: 22%;
+    height: 100%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.AchiversITEdgeDetails img {
+    width: 25%;
+    height: 25%;
+    padding: 20px;
+}
+
+.AchiversITEdgeDetails h4 {
+    margin: 0px 0px;
+}
+.AchiversITEdgeDetails p {
+    margin: 0px 0px;
+}
+
+/* Acheivers IT Edge Starts Here */
+
+/* We are on top starts here */
+.weAreOnTop {
+    text-align: center;
+    margin: 40px 0px;
+    padding: 30px 0px;
+    background-image: url("https://www.achieversit.com/assets/images/12490.jpg");
+    background-size: cover;
+}
+
+.weAreOnTopDisplay {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin: 0px 60px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.weAreOnTopDetails {
+    width: 22%;
+    height: 100%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px 0px;
+    backdrop-filter: blur(3px);
+}
+
+.weAreOnTopDetails h1 {
+    font-size: 60px;
+    color: blue;
+    margin: 20px 0px;
+}
+.weAreOnTopDetails h4 {
+    margin: 0px 0px;
+}
+.weAreOnTopDetails p {
+    margin: 0px 0px;
+}
+
+/*We are on top ends here */
+
+/*Oure trainers from starts here */
+
+.ourTrainers {
+    margin-left: 80px;
+}
+
+.ourTrainersDisplay {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 40px;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.ourTrainersDetails {
+    width: 22%;
+    height: 140px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://www.achieversit.com/assets/images/back-4.jpg");
+    background-size: cover;
+}
+
+.ourTrainersDetails img {
+    width: 50%;
+}
+
+/* our trainers from ends here*/
+
+/* acheivers it process from ends here*/
+
+.achieversItProcess {
+    margin-left: 80px;
+    margin-top: 30px;
+}
+
+.acheiversItProcessDisplay {
+    display: block;
+    margin: auto;
+    width: 50%;
+    height: 440px;
+}
+
+/* achivers it process from ends here*/
+
+/* latest job openings starts here */
+
+.latestJobOpenings {
+    margin-left: 80px;
+    margin-top: 40px;
+}
+
+.latestJobOpeningsDisplay {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 40px;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.latestJobOpeningsDetails {
+    width: 45%;
+    height: 140px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    background-image: url("https://www.achieversit.com/assets/images/back-6.jpg");
+    background-size: cover;
+}
+
+.latestJobOpeningsDetails h3 {
+    margin: 10px 10px;
+    padding: 0px 0px;
+    color: white;
+}
+.latestJobOpeningsDetails p {
+    margin: 10px 10px;
+    padding: 0px 0px;
+    color: white;
+}
+
+/*latest job openings ends here */
+
+/* business banner starts here */
+
+.bussinessBanner {
+    background-image: url("https://www.achieversit.com/assets/images/edureka-business.png");
+    width: 100%;
+    color: white;
+    margin-top: 40px;
+}
+
+.bussinessBanner h4 {
+    margin-left: 120px;
+    padding-top: 60px;
+}
+
+.bussinessBanner h3 {
+    margin-left: 120px;
+}
+
+.bussinessBanner button {
+    margin-left: 120px;
+    width: 200px;
+    height: 40px;
+    background-color: white;
+    color: blue;
+    font-size: 14px;
+    border: none;
+    margin-bottom: 40px;
+}
+
+/* business banner ends here */
+
+/* corpotate clients starts here */
+
+.ourCorporateClients {
+    margin-left: 80px;
+    padding-top: 40px;
+}
+
+.corporateimages {
+    margin: 10px 80px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.corporateimages img {
+    width: 13%;
+    height: 100px;
+    object-fit: contain;
+}
+
+/*corporate client ends here */
+
+/* know us better starts here */
+
+.knowUsBetter {
+    background-image: url("https://www.achieversit.com/assets/images/know-us2.jpg");
+    background-size: cover;
+    width: 100%;
+    color: white;
+}
+
+.knowusbetterinner {
+    margin: 0px 220px;
+    padding: 40px 0px;
+}
+
+.emailcontact {
+    padding: 40px 40px;
+    backdrop-filter: blur(18px);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.emailInput {
+    display: flex;
+    gap: 20px;
+}
+
+.emailInput input {
+    width: 400px;
+    height: 40px;
+    border-radius: 6px;
+    border: none;
+    padding-left: 10px;
+}
+
+.emailInput button {
+    width: 160px;
+    height: 40px;
+    border-radius: 6px;
+    border: none;
+    background-color: rgb(255, 153, 0);
+    color: white;
+    font-size: 16px;
+}
+
+/* know us better ends here */
+
+/* location starts here */
+
+.locationDiv {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.locationDiv h3 {
+    margin: 0px 0px;
+    padding-top: 20px;
+}
+
+.locationDiv p {
+    margin: 0px 0px;
+}
+
+.locationDiv iframe {
+    margin: 20px 0px;
+}
+
+/* location ends here */
+
+/* footer starts here */
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+}
+
+.footerInfo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.footerLogo {
+    width: 22%;
+    padding: 20px;
+}
+
+.footerComapny {
+    width: 22%;
+    padding: 20px;
+}
+
+.footerComapny li {
+    list-style: none;
+    margin: 0px 0px;
+}
+
+.footerComapny li a {
+    text-decoration: none;
+}
+
+.footercourse {
+    width: 22%;
+    padding: 20px;
+}
+
+.footercourse li {
+    list-style: none;
+    margin: 0px 0px;
+}
+
+.footercourse li a {
+    text-decoration: none;
+}
+
+.footerContact {
+    width: 22%;
+    padding: 20px;
+}
+
+
+.footerSocialMedia {
+    display: flex;
+    flex-direction: column;
+}
+
+.SocialMedia ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.SocialMedia ul li {
+    list-style: none;
+}
+
+.SocialMedia ul li a {
+    text-decoration: none;
+}
+
+.footerCopyRight {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* footer ends here */
