@@ -1,0 +1,161 @@
+/* ========== UNIVERSAL SELECTOR ========== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ========== TAG SELECTORS ========== */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 14px;
+}
+
+/* ========== ID SELECTORS ========== */
+#main-header {
+  background-color: #1e293b;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#main-footer {
+  background-color: #1e293b;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+/* ========== CLASS SELECTORS ========== */
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.navbar {
+  display: flex;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+}
+
+.category-card {
+  background-color: #e2e8f0;
+  margin: 20px 0px;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+  margin: 10px;
+  cursor: pointer;
+}
+
+/* ========== ATTRIBUTE SELECTOR ========== */
+[data-type="fashion"] {
+  background-color: #fde68a;
+}
+
+[data-type="electronics"] {
+  background-color: #bfdbfe;
+}
+
+[data-type="home"] {
+  background-color: #bbf7d0;
+}
+
+[data-info="support"] {
+  font-style: italic;
+  color: #93c5fd;
+}
+
+/* ========== GROUPING SELECTOR ========== */
+h2, h3 {
+  color: #1e40af;
+  margin-left: 20px;
+}
+
+/* ========== DESCENDANT SELECTOR ========== */
+.navbar .nav-link {
+  transition: color 0.3s;
+}
+
+.navbar .nav-link:hover {
+  color: #facc15;
+}
+
+/* ========== CHILD SELECTOR ========== */
+.nav-list > li {
+  padding: 5px 0;
+}
+
+/* ========== ADJACENT SIBLING SELECTOR ========== */
+h2 + div {
+  border-top: 2px dashed #ccc;
+  margin-top: 20px;
+  padding-top: 10px;
+}
+
+/* ========== GENERAL SIBLING SELECTOR ========== */
+h2 ~ .note {
+  background-color: #fee2e2;
+  padding: 10px;
+  margin-top: 10px;
+  border-left: 5px solid #ef4444;
+}
+
+/* ========== SPECIAL HIGHLIGHT SELECTORS ========== */
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  margin: 20px 20px;
+}
+
+.product-card {
+  border: 1px solid #d1d5db;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: white;
+  transition: transform 0.2s;
+}
+
+.product-card:hover {
+  transform: scale(1.03);
+}
+
+.product-card.featured {
+  border: 2px solid #fbbf24;
+  background-color: #fef3c7;
+}
+
+.product-title {
+  font-size: 18px;
+  margin-bottom: 5px;
+  color: #111827;
+}
+
+.price {
+  font-weight: bold;
+  color: #10b981;
+}

@@ -1,0 +1,77 @@
+/* CSS Selectors
+
+CSS selectors help us select elements from the HTML document and style them.
+
+
+    Syntax :
+        typeOfSelector{
+            key1 : value1;
+            key2 : value2;
+            key3 : value3;
+        }
+
+Types of Selectors
+
+    1. Basic Selectors
+
+        - Tag
+        - Class
+        - ID
+        - Attribute
+        - Universal
+        - Grouping
+    
+
+    2. Combination Selector 
+
+*/
+
+
+
+
+/* Universal Selector (*) */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+/* Tag (TagName) */
+
+div{
+    background-color: #c3c0c0;
+}
+
+header{
+    background-color: #343232;
+}
+
+/* Grouping */
+
+h2, h3{
+    background-color: teal;
+}
+
+/* class ( . ) */
+.header{
+    background-color: #d80e0e;
+}
+
+
+/* id selector ( # ) */
+
+#main-header{
+    background-color: #3ad80e;
+}
+
+/* Attribute Selectors */
+
+header[id="main-header"]{
+    background-color: aqua;
+}
+
+div[id="main-header"]{
+    background-color: #d80e0e;
+}
