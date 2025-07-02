@@ -97,11 +97,28 @@ body {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
 }
 
+.courseDetail:hover {
+    transition-duration: 300ms;
+    transform: scale(1.11);
+}
+
+.courseDetail:hover:nth-child(odd) {
+    background-image: linear-gradient(to right, rgb(140, 252, 140), rgb(116, 216, 250));
+}
+
+.courseDetail:hover:nth-child(even) {
+    color: white;
+    background-image: linear-gradient(to right, rgb(253, 192, 80), rgb(253, 175, 30));
+}
+
+
 .courseName {
     margin-left: 30px;
+    background-color: transparent;
 }
 .courseDetailButton {
     margin-right: 30px;
+    background-color: transparent;
 }
 
 .courseDetailButton button {
@@ -201,6 +218,11 @@ body {
     align-items: center;
     text-align: center;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.discoverCategoryDetails:hover {
+    transition-duration: 300ms;
+    transform: scale(1.17);
 }
 
 .discoverCategoryDetails img {
@@ -329,6 +351,11 @@ body {
     text-align: center;
 }
 
+.AchiversITEdgeDetails:hover {
+    transition-duration: 300ms;
+    transform: scale(1.11);
+}
+
 .AchiversITEdgeDetails img {
     width: 25%;
     height: 25%;
@@ -384,6 +411,10 @@ body {
 }
 .weAreOnTopDetails p {
     margin: 0px 0px;
+}
+
+.weAreOnTopDetails:hover {
+    background-color: white;
 }
 
 /*We are on top ends here */
@@ -666,11 +697,24 @@ body {
 
 .SocialMedia ul li {
     list-style: none;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
 }
 
 .SocialMedia ul li a {
     text-decoration: none;
+    color: red;
 }
+
+.SocialMedia ul li:hover {
+    background-color: aqua;
+}
+
+
 
 .footerCopyRight {
     display: flex;
