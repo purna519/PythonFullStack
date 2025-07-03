@@ -1,0 +1,29 @@
+*{
+    height: 100%;
+    margin: 0;
+}
+
+.orange, .white, .green {
+    height: 33.33%;
+    width: 100%;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.white {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.green {
+    background-color: green;
+}
+
+.image {
+    width: 240px;
+    height: 240px;
+}

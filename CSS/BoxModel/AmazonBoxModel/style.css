@@ -1,0 +1,98 @@
+* {
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+    background-color: beige;
+}
+
+.logo {
+    margin: 0px 20px;
+}
+
+.logo a {
+    text-decoration: none;
+    font-size: 28px;
+    font-family: Brush Script MT;
+    color: black;
+}
+
+.navBar {
+    margin: 0px 20px;
+}
+
+.navBar ul {
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+}
+
+.item a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.searchBar {
+    width: 40%;
+    height: 30px;
+    border: 1px solid rgb(135, 135, 135);
+    border-radius: 20px;
+    padding: 0px 10px;
+}
+
+.searchBar:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    border: 1px solid black;
+}
+
+.bodyDiv {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: blanchedalmond;
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    width: 32.5%;
+    background-color: white;
+    margin: 20px auto;
+}
+
+.itemCard {
+    width: 49%;
+}
+
+.itemCard:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.itemCard h4 {
+    margin: 0px 22px;
+}
+
+.imageDiv {
+    margin: 10px auto;
+    background-color: rgb(246, 243, 243);
+    width: 92%;
+}
+
+.cardImage {
+    width: 100%;
+    height: 160px;
+    object-fit: fit;
+}
