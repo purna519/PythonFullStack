@@ -1,0 +1,6 @@
+.BackgroundProp {
+    width: 200px;
+    height: 200px;
+    padding: 80px;
+    background: url('https://images.pexels.com/photos/32729482/pexels-photo-32729482.jpeg') center / cover no-repeat local border-box padding-box;
+}
