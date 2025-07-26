@@ -1,0 +1,125 @@
+h1 {
+    text-align: center;
+}
+
+.one {
+    position: relative;
+    width: 90%;
+    margin: 50px auto;
+    height: 500px;
+    background-color: bisque;
+}
+
+.childOne {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+    background-color: yellowgreen;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+
+.two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 50px auto;
+    height: 500px;
+    background-color: bisque;
+}
+
+.childTwo {
+    background-color: yellowgreen;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+
+.third {
+    width: 90%;
+    margin: 50px auto;
+    height: 500px;
+    background-color: bisque;
+}
+
+.childThird {
+    background-color: yellowgreen;
+    width: 200px;
+    height: 200px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.fourth {
+    width: 90%;
+    margin: 50px auto;
+    height: 500px;
+    background-color: bisque;
+    display: grid;
+    place-items: center;
+}
+
+.childFourth {
+    background-color: yellowgreen;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+
+.fifth {
+    width: 90%;
+    margin: 50px auto;
+    height: 500px;
+    background-color: bisque;
+    text-align: center;
+}
+
+.childFifth {
+    display: inline-block;
+    background-color: yellowgreen;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+
+.sixth {
+    width: 90%;
+    margin: 50px auto;
+    height: 500px;
+    background-color: bisque;
+    position: relative;
+}
+
+.childSixth {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: yellowgreen;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+
+.seventh {
+    width: 90%;
+    margin: 50px auto;
+    height: 500px;
+    background-color: bisque;
+    line-height: 500px;
+}
+
+.childSeventh {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+    background-color: yellowgreen;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
