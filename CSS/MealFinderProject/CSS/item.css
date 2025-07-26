@@ -41,7 +41,11 @@ header a {
 /* HERO SECTION */
 .hero {
   background: url('../Assets/images/header_image.1dc0f346d407fc577d16.jpg') no-repeat center center/cover;
-  padding: 80px 20px;
+  height: 48vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   color: #fff;
   position: relative;
