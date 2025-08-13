@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+    <link rel="stylesheet" href="../Events/index.css">
+</head>
+<body>
+
+    <h1 class="heading">CALUCLATORS PAGE</h1>
+
+    <div class="container">
+        <!-- Age caluclator -->
+        <div class="age">
+            <h1>Check your age here</h1>
+            <h2>Please enter your date of birth</h2>
+            <input type="date" id="dob"/>
+            <button id="btn1">Check</button>
+            <h3 id="result1"></h3>
+        </div>
+
+        <!-- Vote eligiblity checker -->
+        <div class="vote">
+            <h1>Check whether you are eligible for vote or not</h1>
+            <h2>Please enter your age here</h2>
+            <input type="number" id="age" placeholder="Enter your age"/>
+            <button id="btn">Check</button>
+            <h3 id="result"></h3>
+        </div>
+
+        <!-- BMI calcuclator -->
+        <div class="bmi">
+            <h1>BMI caluclator</h1>
+            <h2>Please enter your weight here</h2>
+            <input type="number" id="weight" placeholder="Enter your weight in kg">
+            <h2>Please enter your height here</h2>
+            <input type="number" id="height" placeholder="Enter your height here in m">
+            <button id="btn2">Check</button>
+            <h3 id="result2"></h3>
+        </div>
+
+        <!-- Conversions -->
+        <div class="conversion">
+            <h1>Conversions</h1>
+            <h2>Please enter first value</h2>
+            <input type="number" id="value1" placeholder="Enter a value">
+            <span>
+                <span><b>Given Value Units :</b></span><select name="select" id="select1">
+                    <option value="0">Select</option>
+                    <option value="1">Meters</option>
+                    <option value="2">Centimeters</option>
+                    <option value="3">millimeters</option>
+                    <option value="4">feet</option>
+                    <option value="5">inches</option>
+                    <option value="6">Miles</option>
+                    <option value="7">kg</option>
+                    <option value="8">lbs</option>
+                </select>
+            </span>
+            <span>
+                <span><b>Convert to Units :</b></span><select name="select" id="select2">
+                    <option value="0">Select</option>
+                    <option value="1">Meters</option>
+                    <option value="2">Centimeters</option>
+                    <option value="3">millimeters</option>
+                    <option value="4">feet</option>
+                    <option value="5">inches</option>
+                    <option value="6">Miles</option>
+                    <option value="7">kg</option>
+                    <option value="8">lbs</option>
+                </select>
+            </span>
+            <button id="btn3">Convert</button>
+            <h3 id="result3"> </h3>
+        </div>
+    </div>
+
+    <script src="../Events/index.js"></script>
+
+</body>
+</html>

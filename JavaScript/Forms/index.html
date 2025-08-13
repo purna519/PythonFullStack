@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <style>
+        html, body {
+            height: 100%;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            width: 40%;
+            padding: 30px;
+            border: 2px solid black;
+            border-radius: 12px;
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 36px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin-top: 0;
+        }
+
+        .formGroup {
+            display: flex;
+            flex-direction: column;
+            margin: 15px 0;
+        }
+
+        .formGroup span {
+            margin-bottom: 5px;
+        }
+
+        .formGroup input {
+            padding: 4px 4px;
+            font-size: 16px;
+            border: none;
+            border-bottom: 1.5px solid black;
+            outline: none;
+        }
+
+        .errorMessage {
+            color: red;
+            font-size: 12px;
+            margin: 1px 0px;
+            display: none;
+        }
+
+        .passwordRulesBox {
+            background-color: #f9f9f9;
+            border: 1px solid #aaa;
+            border-radius: 5px;
+            padding: 10px 15px;
+            font-size: 13px;
+            margin-top: 8px;
+            color: #333;
+            line-height: 1.5;
+        }
+
+        .passwordRulesBox ul {
+            padding-left: 20px;
+            margin: 5px 0;
+        }
+
+        .passwordRulesBox li {
+            list-style-type: disc;
+        }
+
+        button {
+            margin-top: 20px;
+            padding: 10px 20px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Sign Up</h2>
+    <form class="container" action="#" method="get">
+        <div class="formGroup">
+            <span id="firstNameLabel">Enter First Name</span>
+            <input type="text" id="firstNameInput">
+            <h6 id="firstNameMessage" class="errorMessage">Please enter valid first name</h6>
+        </div>
+        <div class="formGroup">
+            <span id="lastNameLabel">Enter Last Name</span>
+            <input type="text" id="lastNameInput">
+            <h6 id="lastNameMessage" class="errorMessage">Please enter valid last name</h6>
+        </div>
+        <div class="formGroup">
+            <span id="emailLabel">Enter EmailID</span>
+            <input type="email" id="cc">
+            <h6 id="emailMessage" class="errorMessage">Please enter valid email</h6>
+        </div>
+        <div class="formGroup">
+            <span id="mobileLabel">Enter Mobile Number</span>
+            <input type="number" id="mobileInput">
+            <h6 id="mobileMessage" class="errorMessage">Please enter valid mobile number</h6>
+        </div>
+        <div class="formGroup">
+            <span id="passwordLabel">Enter Password</span>
+            <input type="password" id="passwordInput">
+            <h6 id="passwordMessage" class="errorMessage">Please enter password (see rules below)</h6>
+
+            <!-- Password Instruction Box -->
+            <div id="passwordRules" class="passwordRulesBox">
+                Password must contain:
+                <ul>
+                    <li>At least 8 characters</li>
+                    <li>At least one uppercase letter (A-Z)</li>
+                    <li>At least one lowercase letter (a-z)</li>
+                    <li>At least one number (0-9)</li>
+                    <li>At least one special character (!@#$%^&*)</li>
+                </ul>
+            </div>
+        </div>
+        <div class="formGroup">
+            <span id="confirmPasswordLabel">Confirm Password</span>
+            <input type="password" id="confirmPasswordInput">
+            <h6 id="confirmPasswordMessage" class="errorMessage">Passwords do not match</h6>
+        </div>
+        <button id="submitBtn" type="button">Submit</button>
+    </form>
+
+    <script>
+        let submitBtn = document.getElementById('submitBtn');
+
+        submitBtn.addEventListener('click', (e) => {
+
+            e.preventDefault();
+            let pattern = /^(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#$%^&*])(?=.*[0-9]).{8,}$/;
+
+            let firstNameInput = document.getElementById('firstNameInput').value.trim();
+            let lastNameInput = document.getElementById('lastNameInput').value.trim();
+            let emailInput = document.getElementById('cc').value.trim();
+            let mobileInput = document.getElementById('mobileInput').value.trim();
+            let passwordInput = document.getElementById('passwordInput').value;
+            let confirmPasswordInput = document.getElementById('confirmPasswordInput').value;
+
+            let pat = pattern.test(passwordInput);
+
+            let isvalid = true;
+
+            // First name
+            if (firstNameInput === '') {
+                document.getElementById('firstNameMessage').style.display = 'block';
+                isvalid = false;
+            } else {
+                document.getElementById('firstNameMessage').style.display = 'none';
+            }
+
+            // Last name
+            if (lastNameInput === '') {
+                document.getElementById('lastNameMessage').style.display = 'block';
+                isvalid = false;
+            } else {
+                document.getElementById('lastNameMessage').style.display = 'none';
+            }
+
+            // Email
+            if (emailInput === '') {
+                document.getElementById('emailMessage').style.display = 'block';
+                isvalid = false;
+            } else {
+                document.getElementById('emailMessage').style.display = 'none';
+            }
+
+            // Mobile number
+            if (mobileInput === '') {
+                document.getElementById('mobileMessage').style.display = 'block';
+                isvalid = false;
+            } else {
+                document.getElementById('mobileMessage').style.display = 'none';
+            }
+
+            // Password
+            if (passwordInput === '' || !pat) {
+                document.getElementById('passwordMessage').style.display = 'block';
+                isvalid = false;
+            } else {
+                document.getElementById('passwordMessage').style.display = 'none';
+            }
+
+            // Confirm Password
+            if (confirmPasswordInput !== passwordInput || confirmPasswordInput === '') {
+                document.getElementById('confirmPasswordMessage').style.display = 'block';
+                isvalid = false;
+            } else {
+                document.getElementById('confirmPasswordMessage').style.display = 'none';
+            }
+
+            // If all input fields are correct
+            if (isvalid) {
+                // alert('Congratulations, '+lastNameInput+ 'Your Form Submited Successfully');
+                // alert(`Congratulations,${lastNameInput} Your Form Submited Successfully`);
+                alert('Congratulations! You are ready to login.');
+                document.getElementById('firstNameInput').value = '';
+                document.getElementById('lastNameInput').value = '';
+                document.getElementById('cc').value = '';
+                document.getElementById('mobileInput').value = '';
+                document.getElementById('passwordInput').value = '';
+                document.getElementById('confirmPasswordInput').value = '';
+            }
+        });
+    </script>
+</body>
+</html>
+
+
+
+
+
+
