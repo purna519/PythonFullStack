@@ -1,0 +1,9 @@
+What is python:
+1.python is a programing laguage
+2.meachine understable language is binary or meachine language
+3.types of programing languages:
+   a.low(Assembly)
+   b.highlevel(english)(c,C++,java,javascript,python)
+     i.compiler based
+     ii.interpriter based
+     iii.hybried()

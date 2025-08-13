@@ -1,0 +1,32 @@
+python:
+1. everything in python is a object.
+2.python is a dinamiclly typed language.
+
+
+variable:
+   it is used to store the data or value
+
+syntax:
+   variable declaration=variable initalization
+
+rules:
+1.it should contain alpha-numaric charaters and ('_')  
+2.a variable should start with alphabets and ('_')
+3.it is case sencitive 
+
+Data Types:
+1.numaric
+ a.int
+ b.flot
+ c.boolen(true/false)
+ d.complex number(2+3j)
+2.squentical
+  a.string
+  b.list
+  c.tuple
+  d.arrya
+  e.bytearraya
+3.sets
+a.sets
+b.frozen sets
+4.dist

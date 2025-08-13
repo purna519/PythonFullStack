@@ -1,0 +1,33 @@
+Oparator:
+  it can perform some oprations in between oparends.
+
+  Arthamatic Oparators:
+  1.+ (addition)
+  2.-(sub)
+  3.* (mul)
+  4./(division)
+  5.%(mod)
+  6.**(exponent)
+  7.//(floor division)
+
+  Assignment Oparators:
+  1.+=
+  2.-=
+  3.*=
+  4./=
+  5.//=
+  6.**=
+  7.%=
+
+  Relationship Oparators:(boolen expression)
+  1.>
+  2.<
+  3.>=
+  4.<=
+  5.!=
+  6.==
+
+  Logical oparators:
+  1.AND
+  2.OR
+  3.NOT

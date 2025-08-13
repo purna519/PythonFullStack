@@ -1,0 +1,14 @@
+numbers types;
+1. desimal(0,1,2,3,4,5,6,7,8,9)
+2. binary(0,1)
+3. octa(0,1,2,3,4,5,6,7)
+4. hexa()
+
+Base conversions:
+methods:
+bin()
+oct()
+hex()
+
+type conversions:
+   changing the type 
