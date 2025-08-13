@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOm Methods</title>
+</head>
+<body>
+    <script>
+        let main=document.createElement('h1');
+        // console.log(main);
+        let text=document.createTextNode('welcome to javascript');
+        // console.log(text);
+        main.appendChild(text);
+        console.log(main);
+        let body=document.querySelector('body');
+        body.appendChild(main);
+
+        
+        main.setAttribute('style','color:red;border:2px solid blue');
+        // main.removeAttribute('style');
+        body.removeChild(main);
+
+        let img=document.createElement('img');
+        img.setAttribute('src','./Assets/download.jpeg');
+        img.setAttribute('alt','some eye image');
+        console.log(img);
+        
+        body.appendChild(img);
+        body.removeChild(img);
+
+        let tab=document.createElement('table');
+        let thed=document.createElement('thead');
+        let tr=document.createElement('tr');
+        
+        let td1=document.createElement('td');
+        let txt1=document.createTextNode('S.no');
+        
+        let td2=document.createElement('td');
+        let txt2=document.createTextNode('Name');
+        td1.appendChild(txt1)
+        td2.appendChild(txt2)
+        tr.appendChild(td1);
+        tr.appendChild(td2);
+        thed.appendChild(tr);
+        tab.appendChild(thed);
+        
+        body.appendChild(tab);
+        
+    </script>
+</body>
+</html>

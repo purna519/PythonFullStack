@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Functions</title>
+</head>
+<body>
+    <script>
+        // normal function
+        // function greet(){
+        //     console.log('welcome to java script');
+            
+        // }
+
+        // function with parameters
+        // function qurd(a,b,c=2){
+            
+        //     console.log(a+b+c);
+            
+        // }
+        // qurd(2,3,4)
+
+        // variable function
+        // let total=function(a,b){
+        //     console.log(a+b);
+            
+        // }
+        // total(20,30)
+
+        //setTimeOut,setIntervel
+        // setTimeout(function(){
+        //     console.log('welcome');
+            
+        // },2000)
+
+        // setInterval(function(){
+        //     console.log('Good Morning');
+            
+        // },2000)
+
+        function hi(name){
+            return name;
+        }
+        console.log(hi('hareesh'));
+        
+
+        // Imediatly invoked function(IIFE)
+        
+        (function()
+        {console.log('Good Afternoon')
+
+        })();
+
+        // Arrow function:
+        let greet=()=>{
+            console.log('welcome');
+            
+        }
+        greet()
+
+        // setTimeout(()=>{
+        //     console.log('Java script');
+            
+        // },1000)
+
+        // callback function:
+
+        // function welcome(name,x){
+        //     console.log('welcome',name);
+        //     x();
+            
+        // }
+        // welcome('team',saybye)
+        
+        // function saybye(){
+        //     console.log('Nice meeting you');
+            
+        // }
+
+        let repeat=()=>{
+            for(let i=1;i<=5;i++){
+                console.log(i);
+                
+            }
+        }
+        repeat();
+
+        let findnumber=(a)=>{
+            if(a%2==0){
+                console.log(a,'is a even number');
+                
+            }
+            else{
+                console.log(a,'is a odd number');
+                
+            }
+        }
+        findnumber(2)
+
+        function a(){
+            function b(){
+                console.log('welcome');
+                
+            }
+            b();
+        }
+        a();
+    </script>
+</body>
+</html>

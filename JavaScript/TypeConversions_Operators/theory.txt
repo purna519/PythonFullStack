@@ -1,0 +1,19 @@
+Type Conversion:
+   Converting One datatype into Another is know as typeconversion
+
+Types:
+1. Implecit
+(+) will convert the number into a string
+(*,/,%) will convert a string into a number
+2. explesit
+number
+string
+boolen
+
+Oparators:
+A oparator is used to do some oparations in between oparends
+1. Arthamatic (+,-,*,/,%,**,++,--)
+2.Assinment (=,+=,-=,*=,/=,%=)
+3.comparssion (==,===,>,<,>=,<=,!=,!==)
+4.Logical opartators (&&,||)
+5.Terinory 

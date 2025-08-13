@@ -1,0 +1,18 @@
+Data Type: 
+it defines the type of data like(number,word,flot)
+
+Two types of Data Types:
+a. Premitive(holding a single value)
+   i.number(int,flot)
+   ii.boolean(true,false)
+   iii.string('',"",``)
+   iv.undefined
+   v.null
+   vi.bigint (1234567890n)
+b.Non-Premitive
+   i.   arrays ([1,2,3,4,5,'hello']);
+   ii.  objects({
+            name:'AchiversIT',
+            age:11,
+        });
+   iii. array of objects ([{},{},{}])

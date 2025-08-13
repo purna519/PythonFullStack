@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function greet(n){
+            console.log('welcome to Java script',n);
+            
+        }
+        greet('Hareesh')
+
+        function add(a,b=10){
+            console.log('The sum of 2 parameters',a+b);
+            
+        }
+        add(10)
+
+        let add=(a,b)=>{
+            c= a+b;
+            return c;
+            
+        }
+        console.log(add(10,20));
+
+        setTimeout(()=>{
+            console.log('welcome to java script');
+            
+        },2000)
+
+        setInterval(()=>{
+            console.log('welcome');
+            
+        },5000)
+
+        (function(){
+            console.log('welcome');
+            
+        })();
+
+
+        
+    </script>
+</body>
+</html>

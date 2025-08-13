@@ -1,0 +1,9 @@
+Functions:
+    Functions are nothing but it is a predefined code.
+    that can be reutilized
+
+syntax:
+    function name(){
+
+    }
+calling a function: name()       

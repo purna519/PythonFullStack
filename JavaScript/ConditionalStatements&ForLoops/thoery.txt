@@ -1,0 +1,55 @@
+Conditional Statement:
+    Condtional Statements are the statement which are adepending on conditions
+
+Types of Conditional Statements:
+1. simple if
+syntax:
+    if(boolen){
+
+    }
+2. if else
+syntax:
+    if(){
+
+    }else{
+
+    }
+3. else if ladder
+if (){
+
+}else if(){
+
+}else{
+
+}
+4. switch case:
+syntax:
+switch dep{
+    case 1:
+
+    break;
+
+    default:
+}
+5.nested condtional Statements
+
+
+Loop:
+  Repeating the block of code with in the given no of times
+
+1.for Loop:
+ sysntax:
+ for(initization;condition;increment/decrement){
+
+ }
+2. while Loop:
+while (condition){
+
+}
+3.do while
+do{
+    statement
+}while(condition)
+4.for in 
+5. for of
+6. for each

@@ -1,0 +1,13 @@
+Dom Selectors:
+1.getElementByTag
+2.getElementById
+3.getElementByClass
+4.querySelector
+5.querySelectorAll
+
+style.back
+
+properties:
+1.innerHTMl
+2.innerText
+3.textcontent

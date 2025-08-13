@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>stringMethods</title>
+</head>
+<body>
+    <script>
+        let Data='AchieversIT';
+        let _Data=`Training Institute`;
+        let $Data="Hyderabad";
+        let para=`Hi
+        good morning 
+        welcome to the sesssion`
+        let info='   welcome   '
+        console.log(Data.length);
+        console.log(Data.at(0));
+        console.log(Data.charAt(0));
+        console.log(Data.charCodeAt(0));
+        console.log(Data.slice(0,-2));
+        console.log(Data.substring(0,5));
+        console.log(Data.substr(0,5));
+        console.log(Data.toUpperCase());
+        console.log(Data.toLowerCase());
+        let data=Data.toLowerCase();
+        console.log(data);
+        console.log(Data);
+        console.log(para);
+        
+        console.log(Data.startsWith('Achievers'));
+        console.log(Data.endsWith('IT'));
+        console.log(para.includes('to'));
+        console.log(info.length);
+        console.log(info);
+        
+        console.log(info.trimStart());
+        console.log(info.trimStart().length);
+
+         console.log(info.trimEnd());
+        console.log(info.trimEnd().length);
+
+         console.log(info.trim());
+        console.log(info.trim().length);
+
+        console.log(info.padStart(16,'^'));
+        console.log(info.padEnd(16,'^'));
+
+        console.log(Data.indexOf('e'));
+        console.log(Data.lastIndexOf('e'));
+
+        console.log(Data.slice(Data.indexOf('e'),-1));
+        
+       
+        for(let i=0;i<Data.length;i++){
+            console.log(Data[i]);
+            
+        }
+
+        console.log(Data.replace('Achievers','Welcome'));
+        
+    </script>
+</body>
+</html>

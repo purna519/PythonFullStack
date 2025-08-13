@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conditional Statements</title>
+</head>
+<body>
+   <script>
+       
+    //    simple if:
+    let frnd=true;
+    if(frnd){
+        console.log('wait');
+        
+    }
+
+    age=17
+    if(age>=18){
+        console.log('Elgbile to vote');
+        
+    }
+
+
+    // if else:
+    // let input=Number(prompt('Enter a number:'));
+
+    // if (input%2==0){
+    //     console.log('even');
+        
+    // }else{
+    //     console.log('odd');
+        
+    // }
+
+    // else if ladder:
+
+    let marks=80;
+
+    if(marks>=88){
+        console.log('Grade A');
+        
+    }else if(marks>=70 && marks<88){
+        console.log('Grade B');
+        
+    }else if(marks<70 && marks>35){
+        console.log('Grade C');
+        
+    }else{
+        console.log('Fail');
+        
+    }
+
+    // switch:
+    let value=1
+
+    switch (value) {
+        case 1:
+            console.log('case 1');
+            
+            break;
+        case 2:
+            console.log('case 2');
+            
+            break;
+        case 3:
+            console.log('case 3');
+            
+            break;        
+    
+        default:
+            break;
+    }
+
+    // nested if else:
+
+    let price=0;
+
+    if(price>0){
+        if(price==150){
+            console.log('Upper class');
+            
+        }
+        else{
+            console.log('Lower class');
+            
+        }
+    }else{
+        console.log('no ticket');
+        
+    }
+    
+    
+       
+   </script> 
+</body>
+</html>

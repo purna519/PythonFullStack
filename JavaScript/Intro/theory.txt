@@ -1,0 +1,10 @@
+What is Java Script?
+java script is a highlevel,scripting and it. is an interpriter based language
+
+invented in the year 1995 by bernanden eich
+cuurent version is es7 2016
+implementation types
+3 types
+1. inline
+2. internal
+3. external

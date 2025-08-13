@@ -1,0 +1,25 @@
+Variable:
+   Variable is  a container with a name which is holding a value(or) data
+   syntax:
+   varibletype Variablename= value or data
+
+  Types of variables:
+  1.var(Es5)
+  2.let
+  3.const(Es6)
+
+  Diclaration:
+  varibletype variablename;
+  initshalization:
+ varibletype variablename=value(or)data
+
+ var:
+ redeclare,reinistalize
+ let:
+ it can be re instilalized but can not redeclare
+ const:
+ re declaration and reinitisatization can not be possible
+
+ Note:
+ js is a loosly typed language
+ 

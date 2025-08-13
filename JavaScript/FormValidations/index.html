@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        .container{
+            width: 200px;
+            height: 300px;
+            border: 2px solid dimgray;
+            text-align: center;
+            margin-top: 250px;
+            padding: 25px;
+            border-radius: 10px;
+            
+        }
+        input{
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            
+        }
+        span{
+            display: none;;
+            color: red;;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2 style="color: blue;">Facebook Login</h2>
+        <form action="#" method="get" class="loginform">
+            <input type="text" id="uname" placeholder="enter Username">
+            <span id="umsg">Please enter valid Username</span>
+            <input type="password" id="pwd" placeholder="enter password">
+            <span id="pmsg">Please enter valid password</span><br>
+            <input type="submit" id="btn">
+            <hr>
+            <a href="#">Forget Password</a>
+        </form>
+    </div>
+    <script>
+        document.getElementById('btn').addEventListener('click',()=>{
+           let umessage= document.getElementById('uname').value;
+           if(umessage==''){
+            document.getElementById('umsg').style.display='block'
+           }else{
+            document.getElementById('umsg').style.display='none'
+           }
+           let pass=document.getElementById('pwd').value;
+           if(pass==''){
+            document.getElementById('pmsg').style.display='block';
+           }else{
+            document.getElementById('pmsg').style.display='none';
+           }
+
+           if(umessage!='' && pass!=''){
+            alert('Login successful')
+           }
+           
+        })
+    </script>
+</body>
+</html>

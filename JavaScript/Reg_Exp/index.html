@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 1.reguler expresssion 
+     def:
+     literal style
+     let patteren=/pattren/with out flags
+     let pattren=/pattren/igm with flags
+     regexp constrtor
+     let pattren=new Regexp('pattren')with out flsgs
+     let pattren=new Regexp('pattren','flags')
+     flags:
+     i-case insensitive
+     m-multiline
+     g-global
+     methods:
+     test()
+     match()
+     search()
+     exec()
+     metadata:
+     \W:non word(!@#$%^&)
+     \w:word charaters(A-Z,a-z,0-9,_)
+     \s:white space
+     \S:non white spaces
+     \d:digits
+     \D:non digitis
+     quantifiers:
+     n+(atlest or more)
+     n*(0 or more)
+     n{1}
+     n{n,m}
+     {x|y}-->
+    <script>
+        let data='DVBPA9109M';
+        let pattren=/^[A-Z]{5}[0-9]{4}[A-Z]{1}$/
+        console.log(data.match(pattren));
+        console.log(pattren.test(data));
+
+        let email='dinesh@gmail.com';
+        let epattren=/^\w*@{1}\w*.com{1}$/
+        console.log(email.match(epattren));
+        console.log(epattren.test(email));
+        
+        
+        
+        
+    </script>
+</body>
+</html>

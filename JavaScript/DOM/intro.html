@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Welcome to HTML</h1>
+    <h1>Welcome to css</h1>
+    <h1 id="unique">welcome to javascript<span style="visibility: hidden;">it is very easy to learn</span></h1>
+    <h2></h2>
+
+    <p class="exe">It is used to create styatic webpages</p>
+    <p>it is used to provide styles for the webpages</p>
+    <p class="exe">it is used to create the functionality for the webpages</p>
+
+    <section>
+        <h4>Hello world</h4>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti dolores, odit assumenda accusantium dignissimos numquam sint necessitatibus consectetur perferendis culpa velit inventore cum, asperiores explicabo ipsa voluptas natus dolor harum?</p>
+    </section>
+
+    
+
+    <script>
+       let tag=document.getElementsByTagName('h1');
+       console.log(tag);
+
+       let c=document.getElementsByClassName('exe');
+       console.log(c);
+
+  
+
+    let u=document.getElementById('unique');
+    console.log(u);
+
+    let q=document.querySelector('h1');
+    console.log(q);
+
+    let q1=document.querySelector('.exe');
+    console.log(q1);
+
+    let q2=document.querySelector('#unique');
+    console.log(q2);
+    
+    let q3=document.querySelectorAll('.exe');
+    console.log(q3);
+
+    let b=document.querySelector('body');
+    b.style.backgroundColor='gray';
+
+
+    let sec=document.querySelector('section');
+    console.log(sec);
+    
+  let txt=u.innerText;
+  console.log(txt);
+
+  let text1=u.textContent;
+  console.log(text1);
+
+  let text='welcome to js';
+  let head=document.querySelector('h2');
+  head.innerText=text;
+
+  q.innerText=' ';
+  
+       
+    </script>
+</body>
+</html>

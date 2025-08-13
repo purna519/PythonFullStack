@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explict functions</title>
+</head>
+<body>
+    
+    <script>
+     let person={
+        name:'AchiversIT',
+        loc:'Hyd',
+        add:function(period,lms){
+            console.log(`my training insitute is ${this.name} it is loc at ${this.loc} duration ${period} months it has the ${lms} lms access`);
+            
+        }
+     }
+     person.add(6,'public')
+
+     let person1={
+        name:'Paritech',
+        loc:'hyd'
+     }
+
+     person.add.call(person1,6,'private');
+     person.add.apply(person1,[8,'public'])
+    let output= person.add.bind(person1,6,'private')
+    let output1=person.add.bind(person1,[10,'public'])
+    output();
+    output1();
+    
+
+
+    </script>
+</body>
+</html>

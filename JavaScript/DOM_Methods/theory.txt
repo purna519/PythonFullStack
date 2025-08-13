@@ -1,0 +1,13 @@
+DOM Methods:
+1.CreateElement:
+it is used to create the element.with the help of dom
+2.setAttribute:
+it is used to create the attribute for the selected element
+3.removeAttribute:
+it is used to create the exisitng attribute from the selected element
+4.CreateTextnode:
+it is used to create a text content
+5.appendchaild:
+it is used to nest the child element into the selected element
+6.remove child:
+it is used to remove the exisitng element from the selected element
