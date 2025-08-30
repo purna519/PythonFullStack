@@ -70,9 +70,21 @@ else:
 while num<10:
 '''   
 
-num=0
-while num<10:
-    num=num+1
-    print(num)
+# num=0
+# while num<10:
+#     num=num+1
+#     print(num)
     
-print('since the loop ended the value of num is:',num)    
+# print('since the loop ended the value of num is:',num)    
+
+
+i = 1
+while i <= 5:
+    j = 0
+    while i > j:
+        print('*',end=" ")
+        j+=1
+    print()
+    i+=1
+
+

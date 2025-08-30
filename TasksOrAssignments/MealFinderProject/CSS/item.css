@@ -195,7 +195,7 @@ header a {
 /* INGREDIENTS BOX */
 .ingredients-box {
   background: #f15a24;
-  padding: 20px;
+  padding: 10px;
   color: white;
 }
 
@@ -653,4 +653,10 @@ header a {
   .categories h2 {
     font-size: 14px;
   }
+}
+
+
+.mealDetails {
+  display: flex;
+  flex-direction: column;
 }
