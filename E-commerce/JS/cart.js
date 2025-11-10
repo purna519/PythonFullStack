@@ -30,8 +30,7 @@ cartItems.innerHTML = data.map(item => {
 
 let cartPrice = 0;
 data.map(item => {
-    cartPrice = cartPrice + 
-    item.price;
+    cartPrice = parseFloat(cartPrice) + parseFloat(item.price.split('₹'));
 });
 
 document.getElementById('cartPrice').innerHTML = `

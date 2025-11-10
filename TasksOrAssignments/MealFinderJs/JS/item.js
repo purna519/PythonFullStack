@@ -75,7 +75,7 @@ document.addEventListener('DOMContentLoaded', () => {
       document.querySelector('.meal-info').innerHTML = `
         <h3>${e.strMeal}</h3>
         <p class="Category"><strong>Category:</strong> ${e.strCategory}</p>
-        <p class="Source"><strong>Source:</strong> <a href="${e.strSource}" target="_blank">${e.strSource}</a></p>
+        <p class="Source"><strong>Source:</strong> <a href="${e.strYoutube}" target="_blank">${e.strYoutube}</a></p>
         <div class="tags">
           <span class="headTag"><b>Tags:</b></span>
         </div>
